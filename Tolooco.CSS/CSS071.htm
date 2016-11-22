@@ -1,0 +1,230 @@
+﻿<html>
+	<head>
+		<title>
+			Cwx121
+		</title>
+
+		<style>
+			body {
+			}
+
+			div#layout {
+				border: 0;
+				padding: 0;
+				margin: 0 auto;
+				background-color: yellow;
+
+				width: 770px;
+			}
+
+			div#header {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: beige;
+
+				width: 770px;
+				height: 80px;
+			}
+
+			/* جديد */
+			div#avatar {
+				position: relative;
+				border: thin outset;
+
+				width: 120px;
+				height: 91px;
+
+				top: 40px;
+				left: 50px;
+
+				background-repeat: no-repeat;
+				background-position: left top;
+				background-attachment: scroll;
+				background-image: url(Images/Avatar.jpg);
+			}
+
+			div#headerContent {
+				position: relative;
+
+				/* جديد */
+				top: -87px;
+				right: 4px;
+			}
+
+			div#subHeader {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: lightgray;
+
+				width: 770px;
+				height: 24px;
+			}
+
+			div#subHeaderContent {
+				position: relative;
+
+				top: 2px;
+				right: 4px;
+			}
+
+			div#content {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: lightsteelblue;
+
+				width: 770px;
+				min-height: 200px;
+			}
+
+			div#navigation {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: lightgreen;
+
+				float: left;
+
+				width: 150px;
+				min-height: 200px;
+			}
+
+			div#navigationContent {
+				position: relative;
+
+				top: 2px;
+				right: 4px;
+			}
+
+			div#main {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: lightblue;
+
+				float: left;
+
+				width: 620px;
+				min-height: 200px;
+			}
+
+			div#mainContent {
+				position: relative;
+
+				top: 2px;
+				right: 4px;
+			}
+
+			div#subFooter {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: lightpink;
+
+				width: 770px;
+				height: 24px;
+			}
+
+			div#subFooterContent {
+				position: relative;
+
+				top: 2px;
+				right: 4px;
+			}
+
+			div#footer {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				background-color: lightcoral;
+
+				width: 770px;
+				height: 80px;
+			}
+
+			div#footerContent {
+				position: relative;
+
+				top: 2px;
+				right: 4px;
+			}
+
+			div.clearFix:after {
+				height: 0;
+				clear: both;
+				display: block;
+				visibility: hidden;
+				content: " "; /* Older browser do not support empty content */
+			}
+
+			.ltr {
+				direction: ltr;
+				text-align: left;
+
+				font-size: 10pt;
+				font-family: Verdana;
+			}
+
+			.rtl {
+				direction: rtl;
+				text-align: justify;
+
+				font-size: 10pt;
+				font-family: Tahoma;
+			}
+		</style>
+	</head>
+	<body class="ltr">
+		<div id="layout">
+			<div id="header">
+				<div id="avatar">
+				</div>
+
+				<div id="headerContent" class="rtl">
+					عنوان بالا
+					<br />
+					عنوان بالا
+					<br />
+					عنوان بالا
+				</div>
+			</div>
+
+			<div id="subHeader">
+				<div id="subHeaderContent" class="rtl">
+					زيرعنوان بالا
+				</div>
+			</div>
+
+			<div id="content">
+				<div id="main">
+					<div id="mainContent" class="rtl">
+						قسمت اصلی صفحه
+					</div>
+				</div>
+
+				<div id="navigation">
+					<div id="navigationContent" class="rtl">
+						منو
+					</div>
+				</div>
+
+				<div class="clearFix">
+				</div>
+			</div>
+
+			<div id="subFooter">
+				<div id="subFooterContent" class="rtl">
+					زيرعنوان پايين
+				</div>
+			</div>
+
+			<div id="footer">
+				<div id="footerContent" class="rtl">
+					زيرعنوان
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

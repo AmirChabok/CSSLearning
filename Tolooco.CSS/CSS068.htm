@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+
+		<style>
+			div.container {
+				width: 600px;
+				border: 1px outset;
+				background-color: yellow;
+			}
+
+			div.inside {
+				width: 200px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<form id="frmMain" runat="server">
+			<h3>
+				Default
+			</h3>
+
+			<div class="container">
+				<div class="inside" style="background-color: blue;">
+					Hello 1
+				</div>
+
+				<div class="inside" style="background-color: green;">
+					Hello 2
+				</div>
+
+				<div class="inside" style="background-color: red;">
+					Hello 3
+				</div>
+			</div>
+
+			<br />
+
+			<h3>
+				Position: Static
+			</h3>
+
+			<div class="container">
+				<div class="inside" style="position: static; background-color: blue;">
+					Hello 1
+				</div>
+
+				<div class="inside" style="position: static; background-color: green;">
+					Hello 2
+				</div>
+
+				<div class="inside" style="position: static; background-color: red;">
+					Hello 3
+				</div>
+			</div>
+
+			<br />
+
+			<h3>
+				Position: Static, with Left
+			</h3>
+
+			<div class="container">
+				<div class="inside" style="position: static; left: 10px; background-color: blue;">
+					Hello 1 - Left: 10
+				</div>
+
+				<div class="inside" style="position: static; left: 20px; background-color: green;">
+					Hello 2 - Left: 20
+				</div>
+
+				<div class="inside" style="position: static; left: 30px; background-color: red;">
+					Hello 3 - Left: 30
+				</div>
+			</div>
+
+			<br />
+
+			<h3>
+				Position: Relative
+			</h3>
+
+			<div class="container">
+				<div class="inside" style="position: relative; background-color: blue;">
+					Hello 1
+				</div>
+
+				<div class="inside" style="position: relative; background-color: green;">
+					Hello 2
+				</div>
+
+				<div class="inside" style="position: relative; background-color: red;">
+					Hello 3
+				</div>
+			</div>
+
+			<br />
+
+			<h3>
+				Position: Relative, with Left
+			</h3>
+
+			<div class="container">
+				<div class="inside" style="position: relative; left: 10px; background-color: blue;">
+					Hello 1 - Left: 10
+				</div>
+
+				<div class="inside" style="position: relative; left: 20px; background-color: green;">
+					Hello 2 - Left: 20
+				</div>
+
+				<div class="inside" style="position: relative; left: 30px; background-color: red;">
+					Hello 3 - Left: 30
+				</div>
+			</div>
+
+			<br />
+
+			<h3>
+				Position: Relative, with Left and Top
+			</h3>
+
+			<div class="container">
+				<div class="inside" style="position: relative; left: 10px; top: 10px; background-color: blue;">
+					Hello 1 - Left: 10 - Top 10
+				</div>
+
+				<div class="inside" style="position: relative; left: 20px; top: -20px; background-color: green;">
+					Hello 2 - Left: 20 - Top -20
+				</div>
+
+				<div class="inside" style="position: relative; left: 30px; top: -30px; background-color: red;">
+					Hello 3 - Left: 30 - Top -30
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
